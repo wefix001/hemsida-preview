@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>WEFIX Trädgård — testyta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="home">
+  <div class="wash" aria-hidden="true"></div>
+  <div class="test-banner">Testyta · inte den skarpa sajten</div>
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="WEFIX Trädgård, till start">
+      <img src="assets/img/wefix-logo.svg" alt="WEFIX Trädgård" width="140" height="72"
+           onerror="this.onerror=null;this.src='assets/img/wefix-logo.png'">
+    </a>
+    <a class="phone" href="tel:0103300640">010-33 00 640</a>
+  </header>
+  <main class="stage">
+    <div class="orb orb-main" id="main-orb">
+      <div class="orb-inner">
+        <div class="messages" id="messages">
+          <p class="msg bot greeting">Hej! Hur kan vi hjälpa dig med din trädgård?</p>
+          <p class="privacy-line" id="privacy-line">Du pratar med en AI. Vi tar emot det du skriver för att kunna hjälpa dig.</p>
+        </div>
+        <form class="composer" id="composer" autocomplete="off">
+          <input id="chat-input" type="text" name="q" placeholder="Skriv här" maxlength="500" aria-label="Skriv här">
+          <button class="send" type="submit" aria-label="Skicka">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M22 2L11 13" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+              <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="offers" id="offers"></div>
+  </main>
+  <footer class="site-footer">
+    <a href="integritet.html">Integritet</a>
+    <span class="badge">Utkast · inte wefixtradgard.se</span>
+  </footer>
+  <script src="assets/js/chat.js"></script>
+</body>
+</html>
